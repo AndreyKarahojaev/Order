@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <products-title>Товары</products-title>
+</head>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 940px;
+  }
+
+  .header-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-li a {
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 24px 20px 23px;
+    background: #293449;
+    border-radius: 20px;
+  }
+
+  .header-li a:hover {
+    background: #FFFFFF;
+    color: #293449;
+    border: 2px solid #8ED78F;
+    padding: 14px 22px 18px 21px;
+  }
+
+  .header-li a:active {
+    color: #8ED78F;
+    background: #1d2739;
+  }
+</style>
+
+<body>
+  <header class="header">
+    <ul class="header-ul">
+      <li class="header-li"><a href="index.html">Главная</a></li>
+      <li class="header-li"><a href="page1.html">Товары</a></li>
+      <li class="header-li"><a href="page2.html">Информация</a></li>
+      <li class="header-li"><a href="page3.html">О нас</a></li>
+    </ul>
+  </header>
+  <div class="content">
+    <section class="products container">
+      <h2 class="products-title">Товары:</h2>
+      <ul class="catalog-list">
+        <li id="kalibr" class="catalog-item">
+          <div class="action">
+            <a class="buy" href="#">Купить</a>
+            <a class="bookmark" href="#">В закладки</a>
+          </div>
+          <img src="image/sous-25101-sr.jpg" class="catalog-item-gallery" alt="Перфоратор" width="184" height="164">
+          <h3 class="item-name">Калибр ЭП-800/26</h3>
+          <p class="catalog-price">32500 Р.</p>
+          <a href="#" class="price-button">25500 Р.</a>
+        </li>
+        <li id="sous" class="catalog-item label-new">
+          <div class="action">
+            <a class="buy" href="#">Купить</a>
+            <a class="bookmark" href="#">В закладки</a>
+          </div>
+          <img src="image/kalibr-800-sr.jpg" class="catalog-item-gallery" alt="Перфоратор" width="184" height="164">
+          <h3 class="item-name">Союз ПЕС-25101</h3>
+          <p class="catalog-price">22500 Р.</p>
+          <a href="#" class="price-button">15500 Р.</a>
+        </li>
+        <li id="zubr" class="catalog-item">
+          <div class="action">
+            <a class="buy" href="#">Купить</a>
+            <a class="bookmark" href="#">В закладки</a>
+          </div>
+          <img src="image/zubr-28-800-sr.jpg" class="catalog-item-gallery" alt="Перфоратор" width="184" height="164">
+          <h3 class="item-name">Зубр ЗП-28-800 К</h3>
+          <p class="catalog-price">30500 Р.</p>
+          <a href="#" class="price-button">25500 Р.</a>
+        </li>
+        <li id="interskoll" class="catalog-item label-new">
+          <div class="action">
+            <a class="buy" href="#">Купить</a>
+            <a class="bookmark" href="#">В закладки</a>
+          </div>
+          <img src="image/interskoll-22-sr.jpg" class="catalog-item-gallery" alt="Перфоратор" width="184" height="164">
+          <h3 class="item-name">Интерскол П-22/620ЭР</h3>
+          <p class="catalog-price catalog-price-hidden"></p>
+          <a href="#" class="price-button">12500 Р.</a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+
+</html>

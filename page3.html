@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>О нас</title>
+</head>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 940px;
+  }
+
+  .header-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-li a {
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 24px 20px 23px;
+    background: #293449;
+    border-radius: 20px;
+  }
+
+  .header-li a:hover {
+    background: #FFFFFF;
+    color: #293449;
+    border: 2px solid #8ED78F;
+    padding: 14px 22px 18px 21px;
+  }
+
+  .header-li a:active {
+    color: #8ED78F;
+    background: #1d2739;
+  }
+</style>
+
+<body>
+  <header class="header">
+    <ul class="header-ul">
+      <li class="header-li"><a href="index.html">Главная</a></li>
+      <li class="header-li"><a href="page1.html">Товары</a></li>
+      <li class="header-li"><a href="page2.html">Информация</a></li>
+      <li class="header-li"><a href="page3.html">О нас</a></li>
+    </ul>
+  </header>
+  <div class="content">
+    <section class="aside-information container">
+      <div class=" aside-company">
+        <div class="about-company">
+          <h2 class="about-company-title">Компания «ПерфораТор»</h2>
+          <p>Если шопинг, то только такой! Огромный выбор товаров для <br>ремонта и&nbsp;строительства</p>
+          <ul class="example-list ">
+            <li>
+              <p class="example-text">Мы можем доставить ваш товар в самые отдаленные точки России!</p>
+            </li>
+            <li class="line-about-company">Почта России</li>
+            <li class="line-about-company">Автодоставка</li>
+            <li class="line-about-company">ЗелСамолЭкспедиция</li>
+          </ul>
+        </div>
+        <div class="contacts">
+          <h2 class="contacts-title">Контакты</h2>
+          <p class="contacts-text">Вы можете забрать товар сами,<br> завехав в наш офис:</p>
+          <a class="button-map" href="https://yandex.ru/profile/-/CCUfU8f40C">
+            <img src="image/map.jpg" alt="Карта с адресом офиса ул. Большая Конюшенная 19/8, Санкт-Петербург"
+              width="300" height="158">
+          </a>
+          <a class="contacts-button button" href="#">Заблудились? Напишите нам!</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

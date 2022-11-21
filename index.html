@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ПерфораТОР</title>
+</head>
+<style>
+  li {
+    list-style: none;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 940px;
+  }
+
+  .header-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-li a {
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 24px 20px 23px;
+    background: #293449;
+    border-radius: 20px;
+  }
+
+  .header-li a:hover {
+    background: #FFFFFF;
+    color: #293449;
+    border: 2px solid #8ED78F;
+    padding: 14px 22px 18px 21px;
+  }
+
+  .header-li a:active {
+    color: #8ED78F;
+    background: #1d2739;
+  }
+
+  .compare-table {
+    width: 100%;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .compare-table th {
+    min-width: 100px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .compare-table td:first-child {
+    border-left: 0px;
+    text-align: left;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .compare-table td {
+    min-width: 100px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    font-size: 14px;
+  }
+</style>
+
+<body>
+  <header class="header">
+    <ul class="header-ul">
+      <li class="header-li"><a href="#">Главная</a></li>
+      <li class="header-li"><a href="page1.html">Товары</a></li>
+      <li class="header-li"><a href="page2.html">Информация</a></li>
+      <li class="header-li"><a href="page3.html">О нас</a></li>
+    </ul>
+  </header>
+  <div class="content">
+    <div>
+      <h1>Перфоратор для дома</h1>
+      <p>Перфоратор — это электромеханический или электропневматический инструмент с ударным механизмом, похожий по
+        принципу работы на отбойный молоток. Перфоратором можно пробивать отверстия в бетоне, кирпиче, камне и других
+        прочных материалах, скалывать плитку, штробить каналы под проводку, вести демонтажные работы.</p>
+      <p>По способу расположения двигателя перфораторы бывают горизонтальными и вертикальными. Перфораторы могут
+        сверлить с ударом или делать удар без сверления. Аккумуляторные модели работают без розетки.</p>
+      <p> Многие перфораторы оснащают дополнительными функциями и защитой от перегрева и заклинивания.</p>
+    </div>
+    <div class="compare-blok">
+      <!-- таблитца сравнения -->
+      <table class="compare-table">
+        <tbody>
+          <tr>
+            <th rowspan="3">
+              <table style="width: 100%;">
+                <tr>
+                  <td><img src="image/int.png" width="70" height="80" alt="logo"></td>
+                  <td><img src="image/kalibr.png" width="70" height="80" alt="logo"></td>
+                </tr>
+                <tr>
+                  <td><img src="image/soyz.png" width="70" height="80" alt="logo"></td>
+                  <td><img src="image/zubr.png" width="70" height="80" alt="logo"></td>
+                </tr>
+              </table>
+            </th>
+            <th><img src="image/sous-25101-sr.jpg" alt="sous 25101" width="150" height="98"></th>
+            <th><img src="image/kalibr-800-sr.jpg" alt="kalibr 800 sr" width="150" height="98"></th>
+            <th><img src="image/zubr-28-800-sr.jpg" alt="zubr 28 800" width="150" height="98"></th>
+            <th><img src="image/zubr-32-1100-sr.jpg" alt="zubr 32 1100" width="150" height="98"></th>
+            <th><img src="image/interskoll-22-sr.jpg" alt="interskoll 22" width="150" height="98"></th>
+          </tr>
+          <tr>
+            <td class="compare-title"><a style="text-decoration: none;" href="page1.html">Калибр ЭП-800/26</a></td>
+            <td class="compare-title"><a style="text-decoration: none;" href="page1.html">Союз ПЕС-25101</a></td>
+            <td class="compare-title"><a style="text-decoration: none;" href="page1.html">Зубр ЗП-28-800 К</a></td>
+            <td class="compare-title"><a style="text-decoration: none;" href="page1.html">Зубр ЗП-32-1100 К</a></td>
+            <td class="compare-title"><a style="text-decoration: none;" href="page1.html">Интерскол П-22/620ЭР</a></td>
+          </tr>
+          <tr>
+            <td class="compare-reit">&nbsp;</td>
+            <td class="compare-reit">&nbsp;</td>
+            <td class="compare-reit">&nbsp;</td>
+            <td class="compare-reit">&nbsp;</td>
+            <td class="compare-reit">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border-left:1px solid #ccc"><strong>Максимальная сила удара, Дж&nbsp;</strong></td>
+            <td>3,2</td>
+            <td>4</td>
+            <td>3,2</td>
+            <td>3,4</td>
+            <td>2,2</td>
+          </tr>
+          <tr>
+            <td style="border-left:1px solid #ccc"><strong>Мощность, Вт</strong></td>
+            <td>800</td>
+            <td>1000</td>
+            <td>800</td>
+            <td>1100</td>
+            <td>620</td>
+          </tr>
+          <tr>
+            <td style="border-left:1px solid #ccc"><strong>Частота ударов, уд/мин</strong></td>
+            <td>0 - 4000</td>
+            <td>0 - 4400</td>
+            <td>0- 4800</td>
+            <td>0 - 5100</td>
+            <td>0 - 5060</td>
+          </tr>
+          <tr>
+            <td style="border-left:1px solid #ccc"><strong>Частота вращения шпинделя, об/мин</strong></td>
+            <td>900</td>
+            <td>0 - 1100</td>
+            <td>0 - 1200</td>
+            <td>0 - 920</td>
+            <td>0 - 1100</td>
+          </tr>
+          <tr>
+            <td style="border-left:1px solid #ccc"><strong>Реверс</strong></td>
+            <td>поворотом щёток</td>
+            <td>электронный</td>
+            <td>поворотом щёток</td>
+            <td>поворотом щёток</td>
+            <td>электронный</td>
+          </tr>
+          <tr>
+            <td style="border-left:1px solid #ccc"><strong>Вес</strong></td>
+            <td>3,2</td>
+            <td>4,87</td>
+            <td>3,45</td>
+            <td>3,4</td>
+            <td>2,5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
